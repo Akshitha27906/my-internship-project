@@ -1,0 +1,58 @@
+# Final Project Summary
+
+**Internship:** ApexPlanet Software Pvt Ltd — Web Development (PHP & MySQL)
+**Duration:** 45 Days
+**Project:** Blog CRUD Application with Authentication & Security
+
+---
+
+## Overview
+
+Over the course of this internship, I built a complete blog-style web application from scratch using **PHP and MySQL**, progressing through 5 structured tasks — from setting up a local development environment to delivering a fully tested, secure, production-style application.
+
+---
+
+## What Was Built
+
+A web application where users can:
+- Register and log in securely
+- Create, view, edit, and delete blog posts
+- Search posts by title or content
+- Browse posts through paginated results
+- Experience role-based permissions — only **admin** users can delete posts, while **editors** can create and edit
+
+---
+
+## Task-by-Task Summary
+
+**Task 1 — Development Environment Setup (3 Days)**
+Set up a local PHP/MySQL server using XAMPP, installed VS Code as the code editor, and configured Git version control with an initial commit pushed to a GitHub repository.
+
+**Task 2 — Basic CRUD Application (10 Days)**
+Designed the MySQL database (`blog`) with `users` and `posts` tables. Built the core Create, Read, Update, and Delete functionality for posts, along with user registration and login using session-based authentication and bcrypt password hashing.
+
+**Task 3 — Advanced Features Implementation (10 Days)**
+Added a search feature to filter posts by title/content, implemented pagination to limit posts per page with navigation, and improved the interface with custom CSS styling for a cleaner, more professional look.
+
+**Task 4 — Security Enhancements (10 Days)**
+Reinforced the application against common vulnerabilities: all SQL queries use prepared statements to prevent SQL injection, added client-side and server-side form validation, and introduced role-based access control (admin vs. editor) so only authorized users can perform sensitive actions like deleting posts.
+
+**Task 5 — Final Project and Certification (12 Days)**
+Integrated everything into one cohesive application and performed structured end-to-end testing — covering the full user flow, CRUD operations, search/pagination accuracy, and security checks (rejecting weak passwords, blocking unauthenticated access to protected pages, and confirming role-based restrictions). All tests passed, resulting in a polished, fully functional application.
+
+---
+
+## Key Skills Demonstrated
+- PHP backend development (procedural, mysqli)
+- Relational database design (MySQL)
+- Secure authentication (password hashing, sessions)
+- Web application security (prepared statements, input validation, RBAC)
+- Front-end basics (HTML/CSS for usable, styled interfaces)
+- Git & GitHub version control workflow
+- Manual functional and security testing
+
+---
+
+## Outcome
+
+A fully functional, secure, and tested PHP/MySQL CRUD web application — built and deployed locally, version-controlled on GitHub, satisfying all five sets of task deliverables defined by ApexPlanet Software Pvt Ltd's internship program.
