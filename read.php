@@ -76,9 +76,11 @@ $total_pages = ceil($totalRows / $posts_per_page);
                     <td><?php echo htmlspecialchars($row['content']); ?></td>
                     <td><?php echo $row['created_at']; ?></td>
                     <td>
-                        <a href="update.php?id=<?php echo $row['id']; ?>">Edit</a> |
-                        <a href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>
-                    </td>
+                     <a href="update.php?id=<?php echo $row['id']; ?>">Edit</a>
+<?php if ($_SESSION['role'] === 'admin'): ?>
+    | <a href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>
+<?php endif; ?>               
+                </td>
                 </tr>
                 <?php endwhile; ?>
             <?php else: ?>
